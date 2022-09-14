@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox stylesheets="@stylesheet.css" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.ca_assignment1.main.PatientController">
+   <children>
+      <MenuBar>
+         <menus>
+            <Menu mnemonicParsing="false" text="Navigation">
+               <items>
+                  <MenuItem mnemonicParsing="false" onAction="#returnAbove" text="Return Above" />
+               </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="Delete">
+               <items>
+                  <MenuItem mnemonicParsing="false" onAction="#deleteItem" text="Delete Selected" />
+               </items>
+            </Menu>
+         </menus>
+      </MenuBar>
+      <VBox alignment="CENTER" minHeight="500.0" minWidth="700.0" prefHeight="500.0" prefWidth="700.0" spacing="20.0">
+         <padding>
+            <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+         </padding>
+         <children>
+            <Label fx:id="titleText" text="Patients">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="patientName" text="Patient" visible="false">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <ListView fx:id="list" onMouseClicked="#setView" prefHeight="200.0" prefWidth="200.0" />
+            <StackPane prefHeight="150.0" prefWidth="200.0">
+               <children>
+                  <AnchorPane fx:id="patientPane" prefHeight="200.0" prefWidth="200.0">
+                     <children>
+                        <TextField fx:id="ppsn" layoutX="14.0" layoutY="36.0" promptText="PPSN" />
+                        <TextField fx:id="name" layoutX="170.0" layoutY="36.0" promptText="Name" />
+                        <DatePicker fx:id="dateOfBirth" layoutX="330.0" layoutY="36.0" prefHeight="25.0" prefWidth="158.0" promptText="Date of Birth" />
+                        <TextField fx:id="address" layoutX="497.0" layoutY="36.0" promptText="Address" />
+                        <Button layoutX="291.0" layoutY="110.0" mnemonicParsing="false" onAction="#addItem" text="Add Patient" />
+                        <TextField fx:id="eircode" layoutX="14.0" layoutY="77.0" promptText="Eircode" />
+                        <TextField fx:id="phone" layoutX="170.0" layoutY="77.0" promptText="Phone Number" />
+                        <TextField fx:id="email" layoutX="330.0" layoutY="77.0" prefHeight="26.0" prefWidth="158.0" promptText="Email Address" />
+                     </children>
+                  </AnchorPane>
+               </children>
+            </StackPane>
+         </children>
+      </VBox>
+   </children>
+</VBox>

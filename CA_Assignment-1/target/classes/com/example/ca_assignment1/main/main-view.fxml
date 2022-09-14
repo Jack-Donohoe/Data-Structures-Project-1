@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox stylesheets="@stylesheet.css" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.ca_assignment1.main.MainController">
+   <children>
+        <MenuBar prefHeight="24.0" prefWidth="700.0">
+            <menus>
+                <Menu mnemonicParsing="false" text="Navigation">
+                    <items>
+                        <MenuItem mnemonicParsing="false" onAction="#returnAbove" text="Return Above" />
+                    </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Delete">
+                    <items>
+                        <MenuItem mnemonicParsing="false" onAction="#deleteItem" text="Delete Selected" />
+                    </items>
+                </Menu>
+            </menus>
+        </MenuBar>
+      <VBox alignment="CENTER" spacing="20.0" stylesheets="@stylesheet.css">
+           <padding>
+               <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+           </padding>
+      
+           <Label fx:id="titleText" text="Vaccination Centres">
+               <font>
+                   <Font name="System Bold" size="14.0" />
+               </font>
+           </Label>
+           <ListView fx:id="list" onMouseClicked="#setView" prefHeight="210.0" prefWidth="646.0" />
+           <StackPane prefHeight="150.0" prefWidth="200.0">
+               <children>
+                   <AnchorPane fx:id="boothPane" prefHeight="200.0" prefWidth="200.0" visible="false">
+                       <children>
+                           <TextField fx:id="accessInfo" layoutX="430.0" layoutY="14.0" prefHeight="26.0" prefWidth="203.0" promptText="Accessibility Info" />
+                           <TextField fx:id="floorLevel" layoutX="232.0" layoutY="14.0" prefHeight="26.0" prefWidth="182.0" promptText="FloorLevel" />
+                           <TextField fx:id="boothID" layoutX="14.0" layoutY="14.0" prefHeight="26.0" prefWidth="196.0" promptText="BoothID" />
+                           <Button layoutX="286.0" layoutY="54.0" mnemonicParsing="false" onAction="#addItem" text="Add Booth" />
+                       </children>
+                   </AnchorPane>
+                   <AnchorPane prefHeight="200.0" prefWidth="200.0" visible="false" />
+                   <AnchorPane fx:id="appointmentPane" prefHeight="166.0" prefWidth="660.0" visible="false">
+                       <children>
+                           <Button layoutX="266.0" layoutY="1.0" mnemonicParsing="false" onAction="#completeAppointment" text="Complete Appointment" />
+                           <ComboBox fx:id="ppsn" layoutX="457.0" layoutY="72.0" prefHeight="26.0" prefWidth="174.0" promptText="PPSN" />
+                           <DatePicker fx:id="date" layoutX="31.0" layoutY="39.0" prefHeight="26.0" prefWidth="182.0" promptText="Date" />
+                           <TextField fx:id="vaccinator" layoutX="238.0" layoutY="72.0" prefHeight="26.0" prefWidth="196.0" promptText="Vaccinator" />
+                           <TextField fx:id="batchID" layoutX="31.0" layoutY="72.0" prefHeight="26.0" prefWidth="182.0" promptText="Batch ID" />
+                           <ComboBox fx:id="vacType" layoutX="457.0" layoutY="39.0" prefHeight="26.0" prefWidth="174.0" promptText="Vaccination Type" />
+                           <ComboBox fx:id="time" layoutX="238.0" layoutY="39.0" prefHeight="26.0" prefWidth="196.0" promptText="Time" />
+                           <Button layoutX="280.0" layoutY="103.0" mnemonicParsing="false" onAction="#addItem" text="Add Appointment" />
+                       </children>
+                   </AnchorPane>
+                   <AnchorPane fx:id="vacCentrePane" prefHeight="71.0" prefWidth="646.0">
+                       <children>
+                           <TextField fx:id="parking" layoutX="497.0" layoutY="21.0" promptText="Parking" />
+                           <TextField fx:id="eircode" layoutX="340.0" layoutY="21.0" promptText="Eircode" />
+                           <TextField fx:id="address" layoutX="178.0" layoutY="21.0" promptText="Address" />
+                           <TextField fx:id="name" layoutX="14.0" layoutY="21.0" prefHeight="26.0" prefWidth="149.0" promptText="Name" />
+                           <Button layoutX="252.0" layoutY="61.0" mnemonicParsing="false" onAction="#addItem" text="Add Vaccination Centre" />
+                       </children>
+                   </AnchorPane>
+               </children>
+           </StackPane>
+       </VBox>
+   </children>
+</VBox>

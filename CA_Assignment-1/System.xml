@@ -1,0 +1,330 @@
+<object-stream>
+  <com.example.ca__assignment1.main.SystemAPI>
+    <vacCentres>
+      <head>
+        <next>
+          <next>
+            <next>
+              <next>
+                <next>
+                  <prev reference="../.."/>
+                  <contents class="com.example.ca_assignment1.models.VaccinationCentre">
+                    <booths>
+                      <size>0</size>
+                    </booths>
+                    <name>Centre 5</name>
+                    <address>Hi</address>
+                    <eircode>X91 D9FK</eircode>
+                    <parking>8</parking>
+                  </contents>
+                </next>
+                <prev reference="../.."/>
+                <contents class="com.example.ca_assignment1.models.VaccinationCentre">
+                  <booths>
+                    <size>0</size>
+                  </booths>
+                  <name>Centre 4</name>
+                  <address>Hi</address>
+                  <eircode>X91 D9FK</eircode>
+                  <parking>8</parking>
+                </contents>
+              </next>
+              <prev reference="../.."/>
+              <contents class="com.example.ca_assignment1.models.VaccinationCentre">
+                <booths>
+                  <size>0</size>
+                </booths>
+                <name>Centre 3</name>
+                <address>Hi</address>
+                <eircode>X91 D9FK</eircode>
+                <parking>8</parking>
+              </contents>
+            </next>
+            <prev reference="../.."/>
+            <contents class="com.example.ca_assignment1.models.VaccinationCentre">
+              <booths>
+                <size>0</size>
+              </booths>
+              <name>Centre 2</name>
+              <address>Hi</address>
+              <eircode>X91 D9FK</eircode>
+              <parking>8</parking>
+            </contents>
+          </next>
+          <prev reference="../.."/>
+          <contents class="com.example.ca_assignment1.models.VaccinationCentre">
+            <booths>
+              <size>0</size>
+            </booths>
+            <name>Centre 1</name>
+            <address>Hi</address>
+            <eircode>X91 D9FK</eircode>
+            <parking>8</parking>
+          </contents>
+        </next>
+        <contents class="com.example.ca_assignment1.models.VaccinationCentre">
+          <booths>
+            <head>
+              <next>
+                <next>
+                  <next>
+                    <next>
+                      <next>
+                        <prev reference="../.."/>
+                        <contents class="com.example.ca_assignment1.models.Booth">
+                          <appointments>
+                            <size>0</size>
+                          </appointments>
+                          <boothID>5A</boothID>
+                          <floorLevel>1</floorLevel>
+                          <accessInfo>Wheelchair</accessInfo>
+                        </contents>
+                      </next>
+                      <prev reference="../.."/>
+                      <contents class="com.example.ca_assignment1.models.Booth">
+                        <appointments>
+                          <size>0</size>
+                        </appointments>
+                        <boothID>4A</boothID>
+                        <floorLevel>1</floorLevel>
+                        <accessInfo>Wheelchair</accessInfo>
+                      </contents>
+                    </next>
+                    <prev reference="../.."/>
+                    <contents class="com.example.ca_assignment1.models.Booth">
+                      <appointments>
+                        <size>0</size>
+                      </appointments>
+                      <boothID>3A</boothID>
+                      <floorLevel>1</floorLevel>
+                      <accessInfo>Wheelchair</accessInfo>
+                    </contents>
+                  </next>
+                  <prev reference="../.."/>
+                  <contents class="com.example.ca_assignment1.models.Booth">
+                    <appointments>
+                      <size>0</size>
+                    </appointments>
+                    <boothID>2A</boothID>
+                    <floorLevel>1</floorLevel>
+                    <accessInfo>Wheelchair</accessInfo>
+                  </contents>
+                </next>
+                <prev reference="../.."/>
+                <contents class="com.example.ca_assignment1.models.Booth">
+                  <appointments>
+                    <size>0</size>
+                  </appointments>
+                  <boothID>1A</boothID>
+                  <floorLevel>1</floorLevel>
+                  <accessInfo>Wheelchair</accessInfo>
+                </contents>
+              </next>
+              <contents class="com.example.ca_assignment1.models.Booth">
+                <appointments>
+                  <head>
+                    <next>
+                      <next>
+                        <next>
+                          <next>
+                            <next>
+                              <next>
+                                <prev reference="../.."/>
+                                <contents class="com.example.ca_assignment1.models.Appointment">
+                                  <date>2021-11-25</date>
+                                  <time>11:00</time>
+                                  <vacType>AstraZeneca</vacType>
+                                  <batchID>4444DD</batchID>
+                                  <vaccinator>James</vaccinator>
+                                  <PPSN>4222111DD</PPSN>
+                                </contents>
+                              </next>
+                              <prev reference="../.."/>
+                              <contents class="com.example.ca_assignment1.models.Appointment">
+                                <date>2021-11-01</date>
+                                <time>12:00</time>
+                                <vacType>Pfizer</vacType>
+                                <batchID>1234DD</batchID>
+                                <vaccinator>Jack</vaccinator>
+                                <PPSN>5222222DD</PPSN>
+                              </contents>
+                            </next>
+                            <prev reference="../.."/>
+                            <contents class="com.example.ca_assignment1.models.Appointment">
+                              <date>2021-11-01</date>
+                              <time>12:00</time>
+                              <vacType>Pfizer</vacType>
+                              <batchID>1234DD</batchID>
+                              <vaccinator>Jack</vaccinator>
+                              <PPSN>4222222DD</PPSN>
+                            </contents>
+                          </next>
+                          <prev reference="../.."/>
+                          <contents class="com.example.ca_assignment1.models.Appointment">
+                            <date>2021-11-01</date>
+                            <time>12:00</time>
+                            <vacType>Pfizer</vacType>
+                            <batchID>1234DD</batchID>
+                            <vaccinator>Jack</vaccinator>
+                            <PPSN>3222222DD</PPSN>
+                          </contents>
+                        </next>
+                        <prev reference="../.."/>
+                        <contents class="com.example.ca_assignment1.models.Appointment">
+                          <date>2021-11-01</date>
+                          <time>12:00</time>
+                          <vacType>Pfizer</vacType>
+                          <batchID>1234DD</batchID>
+                          <vaccinator>Jack</vaccinator>
+                          <PPSN>2222222DD</PPSN>
+                        </contents>
+                      </next>
+                      <prev reference="../.."/>
+                      <contents class="com.example.ca_assignment1.models.Appointment">
+                        <date>2021-11-01</date>
+                        <time>12:00</time>
+                        <vacType>Pfizer</vacType>
+                        <batchID>1234DD</batchID>
+                        <vaccinator>Jack</vaccinator>
+                        <PPSN>1222222DD</PPSN>
+                      </contents>
+                    </next>
+                    <contents class="com.example.ca_assignment1.models.Appointment">
+                      <date>2021-11-01</date>
+                      <time>12:00</time>
+                      <vacType>Pfizer</vacType>
+                      <batchID>1234DD</batchID>
+                      <vaccinator>Jack</vaccinator>
+                      <PPSN>0222222DD</PPSN>
+                    </contents>
+                  </head>
+                  <tail reference="../head/next/next/next/next/next/next"/>
+                  <size>7</size>
+                </appointments>
+                <boothID>0A</boothID>
+                <floorLevel>1</floorLevel>
+                <accessInfo>Wheelchair</accessInfo>
+              </contents>
+            </head>
+            <tail reference="../head/next/next/next/next/next"/>
+            <size>6</size>
+          </booths>
+          <name>Centre 0</name>
+          <address>Hi</address>
+          <eircode>X91 D9FK</eircode>
+          <parking>8</parking>
+        </contents>
+      </head>
+      <tail reference="../head/next/next/next/next/next"/>
+      <size>6</size>
+    </vacCentres>
+    <patients>
+      <head>
+        <next>
+          <next>
+            <next>
+              <next>
+                <next>
+                  <next>
+                    <prev reference="../.."/>
+                    <contents class="com.example.ca_assignment1.models.Patient">
+                      <records>
+                        <size>0</size>
+                      </records>
+                      <PPSN>4222111DD</PPSN>
+                      <name>James</name>
+                      <dateOfBirth>2021-11-04</dateOfBirth>
+                      <address>Hi</address>
+                      <eircode>D65 H76K</eircode>
+                      <phone>12345678</phone>
+                      <email>Hi</email>
+                    </contents>
+                  </next>
+                  <prev reference="../.."/>
+                  <contents class="com.example.ca_assignment1.models.Patient">
+                    <records>
+                      <size>0</size>
+                    </records>
+                    <PPSN>5222222DD</PPSN>
+                    <name>Patient 5</name>
+                    <dateOfBirth>2001-01-01</dateOfBirth>
+                    <address>Callan</address>
+                    <eircode>X91 D9FK</eircode>
+                    <phone>12345678</phone>
+                    <email>Hi</email>
+                  </contents>
+                </next>
+                <prev reference="../.."/>
+                <contents class="com.example.ca_assignment1.models.Patient">
+                  <records>
+                    <size>0</size>
+                  </records>
+                  <PPSN>4222222DD</PPSN>
+                  <name>Patient 4</name>
+                  <dateOfBirth>2001-01-01</dateOfBirth>
+                  <address>Callan</address>
+                  <eircode>X91 D9FK</eircode>
+                  <phone>12345678</phone>
+                  <email>Hi</email>
+                </contents>
+              </next>
+              <prev reference="../.."/>
+              <contents class="com.example.ca_assignment1.models.Patient">
+                <records>
+                  <size>0</size>
+                </records>
+                <PPSN>3222222DD</PPSN>
+                <name>Patient 3</name>
+                <dateOfBirth>2001-01-01</dateOfBirth>
+                <address>Callan</address>
+                <eircode>X91 D9FK</eircode>
+                <phone>12345678</phone>
+                <email>Hi</email>
+              </contents>
+            </next>
+            <prev reference="../.."/>
+            <contents class="com.example.ca_assignment1.models.Patient">
+              <records>
+                <size>0</size>
+              </records>
+              <PPSN>2222222DD</PPSN>
+              <name>Patient 2</name>
+              <dateOfBirth>2001-01-01</dateOfBirth>
+              <address>Callan</address>
+              <eircode>X91 D9FK</eircode>
+              <phone>12345678</phone>
+              <email>Hi</email>
+            </contents>
+          </next>
+          <prev reference="../.."/>
+          <contents class="com.example.ca_assignment1.models.Patient">
+            <records>
+              <size>0</size>
+            </records>
+            <PPSN>1222222DD</PPSN>
+            <name>Patient 1</name>
+            <dateOfBirth>2001-01-01</dateOfBirth>
+            <address>Callan</address>
+            <eircode>X91 D9FK</eircode>
+            <phone>12345678</phone>
+            <email>Hi</email>
+          </contents>
+        </next>
+        <contents class="com.example.ca_assignment1.models.Patient">
+          <records>
+            <size>0</size>
+          </records>
+          <PPSN>0222222DD</PPSN>
+          <name>Patient 0</name>
+          <dateOfBirth>2001-01-01</dateOfBirth>
+          <address>Callan</address>
+          <eircode>X91 D9FK</eircode>
+          <phone>12345678</phone>
+          <email>Hi</email>
+        </contents>
+      </head>
+      <tail reference="../head/next/next/next/next/next/next"/>
+      <size>7</size>
+    </patients>
+  </com.example.ca__assignment1.main.SystemAPI>
+</object-stream>

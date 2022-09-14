@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox stylesheets="@stylesheet.css" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.ca_assignment1.main.StartController">
+   <children>
+       <MenuBar>
+           <Menu mnemonicParsing="false" text="File">
+               <MenuItem mnemonicParsing="false" onAction="#save" text="Save" />
+               <MenuItem mnemonicParsing="false" onAction="#load" text="Load" />
+           </Menu>
+       </MenuBar>
+      <VBox alignment="CENTER" prefHeight="423.0" prefWidth="598.0" spacing="20.0">
+          <padding>
+              <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+          </padding>
+      
+          <Label text="Welcome to the Vaccine Management System">
+            <font>
+               <Font name="System Bold" size="20.0" />
+            </font>
+         </Label>
+         <TextField fx:id="search" onKeyTyped="#search" promptText="Search" />
+         <ListView fx:id="list" prefHeight="200.0" prefWidth="200.0" />
+         <AnchorPane prefHeight="80.0" prefWidth="558.0">
+            <children>
+               <Button layoutX="404.0" layoutY="10.0" mnemonicParsing="false" onAction="#switchPatient" text="View Patients">
+                  <font>
+                     <Font size="14.0" />
+                  </font>
+               </Button>
+                <Button layoutX="49.0" layoutY="10.0" onAction="#switchMain" text="View Vaccination Centres">
+                  <font>
+                     <Font size="14.0" />
+                  </font>
+               </Button>
+               <Button layoutX="259.0" layoutY="10.0" mnemonicParsing="false" onAction="#reset" text="Reset System">
+                  <font>
+                     <Font size="14.0" />
+                  </font>
+               </Button>
+            </children>
+         </AnchorPane>
+      </VBox>
+   </children>
+</VBox>
